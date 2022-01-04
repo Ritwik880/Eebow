@@ -50,7 +50,7 @@ const Home = () => {
                 <div class="row">
                     <div class="col-4">
                         <img src={product1} />
-                        <h4>Red Printed T-shirt</h4>
+                        <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -58,11 +58,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product2} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -70,11 +70,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product3} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -82,11 +82,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product4} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -94,14 +94,14 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                 </div>
                 <h2 class="title">Latest Product</h2>
                 <div class="row">
                     <div class="col-4">
                         <img src={product5} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -109,11 +109,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product6} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -121,11 +121,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product7} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -133,11 +133,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product8} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -145,13 +145,13 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-4">
                         <img src={product9} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -159,11 +159,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product10} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -171,11 +171,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product11} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -183,11 +183,11 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                     <div class="col-4">
                         <img src={product12} />
-                        <h4>Red Printed T-shirt</h4>
+                       <h4>Premimum Neck Bands</h4>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -195,7 +195,7 @@ const Home = () => {
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <p>RS. 5000.00</p>
+                        <p>RS. 1000</p>
                     </div>
                 </div>
             </div>

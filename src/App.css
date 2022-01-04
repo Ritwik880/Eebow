@@ -154,6 +154,7 @@ h6{
     min-width: 200px;
     margin-bottom: 50px;
     transition: transform 0.5s;
+    /* background: #E3E6F3; */
 }
 .col-4 img{
     width: 100%;
@@ -335,6 +336,8 @@ footer .copyright{
         padding-left: 20px;
     }
     #close{
+        display: flex;
+        align-items: center;
         position: absolute;
         top: 30px;
         left: 30px;
@@ -342,4 +345,13 @@ footer .copyright{
         font-size: 24px;
     }
     
+}
+.modal-title{
+    background: #2c3e50;
+    color: #eee;
+   
+}
+.modal-body{
+    background: #E3E6F3;
+
 }
