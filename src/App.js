@@ -4,9 +4,10 @@ import Home from './components/Home'
 import Shop from './components/Shop'
 import About from './components/About'
 import Contact from './components/Contact'
-import Signup from './components/Signup'
-import Login from './components/Login'
+import Signup from './components/signup.component'
+import Login from './components/login.component'
 import Footer from './components/Footer'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route exact path="/" element={<Home />}>
 
         </Route>
-        <Route exact path="/shop" element={<Shop />}>
+        <Route exact path="/shop" element={<Shop />}> 
 
         </Route>
 

@@ -73,7 +73,7 @@ const Header = () => {
                         <i className='fa fa-times' id='close'></i>
 
                         <a class="btn btn-outline-success" href="/signup" type="submit">Register</a>
-
+                        <a class="btn btn-outline-success" href="/login" type="submit">Login</a>
 
                     </ul>
                 </div>
