@@ -86,7 +86,7 @@ form{
 }
 @media (max-width: 1140px){
   .column img{
-    width: 500px;
+    width: 400px;
   }
   .form-group,
   .login .btn,
@@ -104,4 +104,15 @@ form{
   .container {
     height: 100% !important;
   }
+}
+
+@media (max-width:500px) {
+  .column img{
+    width: 350px;
+  }
+  .form-group,
+  .login .btn,
+  .signup .btn{
+    width: 350px !important;
+}
 }

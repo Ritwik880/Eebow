@@ -5,24 +5,28 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { db } from "../firebase.js";
 
 const Header = () => {
-    const bar = document.getElementById('bar');
-    const close = document.getElementById('close');
-    const nav = document.getElementById('navbar');
-    if (bar) {
-        bar.addEventListener('click', () => {
-            // alert("clicked")
-            nav.classList.add('active')
-        })
-    }
-    if (close) {
-        close.addEventListener('click', () => {
-            nav.classList.remove('active')
-        })
-    }
-    const [show, setShow] = useState(false);
+    const active = () => {
+        const bar = document.getElementById('bar');
+        const close = document.getElementById('close');
+        const nav = document.getElementById('navbar');
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+        if (bar) {
+            bar.addEventListener('click', () => {
+                // alert("clicked")
+                nav.classList.add('active')
+            })
+        }
+        if (close) {
+            close.addEventListener('click', () => {
+                nav.classList.remove('active')
+            })
+        }
+    }
+        const [show, setShow] = useState(false);
+
+        const handleClose = () => setShow(false);
+        const handleShow = () => setShow(true);
+    
 
 
     // const [name, setName] = useState("");
@@ -78,8 +82,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div id="mobile">
-                    {/* <a href="#"><i class='fa fa-shopping-bag'></i></a> */}
-                    <i id='bar' className='fa fa-outdent'></i>
+                    <a onClick={active}><i id='bar' className='fa fa-outdent'></i></a>
                 </div>
             </section>
 
