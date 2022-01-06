@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import login from '../image/login_secure.svg'
 
 export default class Login extends Component {
     render() {
         return (
             <section className="login">
+                <div class="row justify-content-center">
+                <div class="col-6 column">
                 <form>
                     <h3 className="si_h3">Sign In</h3>
 
@@ -32,6 +35,11 @@ export default class Login extends Component {
                         Not registered <a href="/signup">Register?</a>
                     </p>
                 </form>
+                </div>
+                <div class="col-6 column">
+                <img src={login} />
+                </div>
+                </div>
             </section>
         );
     }
