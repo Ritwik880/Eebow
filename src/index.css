@@ -34,6 +34,9 @@
   justify-content: center !important;
   align-items: center !important;
 }
+.column img{
+  width: 700px;
+}
 form{
   z-index: 1;
 }
@@ -79,10 +82,15 @@ form{
   color: #167bff;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1290px){
   .column img{
-    width: 700px;
+    width: 600px;
   }
+  .form-group,
+  .login .btn,
+  .signup .btn{
+    width: 400px !important;
+}
 }
 @media (max-width: 1140px){
   .column img{
@@ -91,7 +99,7 @@ form{
   .form-group,
   .login .btn,
   .signup .btn{
-    width: 400px !important;
+    width: 300px !important;
 }
 }
 @media (max-width: 900px){
