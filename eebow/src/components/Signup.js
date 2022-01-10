@@ -18,7 +18,7 @@ const Signup = () => {
     const PostData = async (e) => {
         e.preventDefault();
         const { name, email, phone, password, cpassword } = user;
-        const res = await fetch('/signup', {
+        const res = await fetch('/register', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -29,7 +29,7 @@ const Signup = () => {
             })
         });
         const data = await res.json();
-        if (res.status == 422 || !data) {
+        if (res.status === 422 || !data) {
             window.alert("Registration Failed");
             console.log("Registration Failed");
         }
